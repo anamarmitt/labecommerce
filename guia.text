@@ -1,0 +1,11 @@
+npm init -y	criar novo projeto
+npm i typescript -D	iniciar cada novo projeto instalando o TS 
+npm install -g typescript	instalar o Typescript globalmente (uma única vez)
+tsc nomearquivotypescript.ts	mudar para Javascript
+npx tsc --init	criar tsconfig.json
+"target": "es6",
+ "rootDir": "./src",
+"outDir": "./build",
+ "sourceMap": true, 
+"removeComments": true,
+"noImplicitAny": true,
